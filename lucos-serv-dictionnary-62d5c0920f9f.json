@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lucos-serv-dictionnary",
+  "private_key_id": "62d5c0920f9f76d16dcbbb09811044af3248f1f7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpHhWq9cH6ehIB\nYSf2PH8p9IUZpL2agTrdce7knnS1EKeKDfL5boC2KfGifIM/k8vRIFQaLUxUXmoC\nt0V0mWzmoi3Ov6l6Y9HxUcUBHxzA5mJug1PEl4VTsw6caBtqcdvi8SgLP/K2Xo9u\n7sTCv8s6rA70wVECH3hQuXnnfHztkKMWNuWVmSIg/gTCtH9ZLxyPJ+TVm6TB/333\nMUW+LGPYx253uUXgfaJ6eJNwD/sRFBpH9Ptr425T7HWYPphFR9QDyN3gO6W8A6Em\nklokZuPVG4S7l4AOz/skM8wDEQnfLAxDQ0uEHhZgl2q+Kg4yagGmfzjzJe3b9+K4\nEWcwIxzHAgMBAAECggEATqWYgwQ+HOtW40BY8riolIzLtyS3LhqKEwCQjc4ozSl9\nGIUrKRdcERsJbbyE1vS3FL55jiDhvdyYZUHwsWxGSi1Cq0LToIC6WgTiXoam+whI\n30cAlky2qrl7An6hvUtM7EmlCzJGf8wS3Q55/21tKBBq9iTOtPOIotXWnLH2cQ2P\nrGGFxNaUU8RwqC1Hte4NiuHg6V4ev44ZDy+PrL1JeOU8g0yEHvG8b9lyQbbYCx/N\noy0hXpEYtk9kRipgvtSNGnfwpdnH8x4Rctzs9ecC6MYheH4v1KYw5ThVSXyMaBlu\nvjiAknZS6RTdQRVFFs2yRllYqXgN2Y45SC+w8TNXjQKBgQDiTVn7TDv31U60t90O\nk+1WqSf/XOBgxSjiuL5iL1aC18XJHfq8vCM+ukJMldGu8mVU0X+MRgZKKrfi9QFo\n+yvv24XlHFTQOZnOg5LRnwENdYjvIRE4trS9hId/FQWnXXgKhIn7yiS9XqdWt1Jp\n46SZiJ/9ktBJlcz9WfU7ybR01QKBgQC/T5u6gJA84qUkLsJKia4mTTge/6ip4dfZ\nPlWZvDXsPbnFXZDdBFW5gqs5W23P2xm5141W0zlpw+4XObixmpvNLyDBPKsI0txb\nA4pdL0FrC2dXS0bc5q+XL4Tm5ZIT/nXL1KUWOzHnTW1ghLtTQCUbel4opp7zeS6h\nh1gWV9gJKwKBgGt0jUh9H3CD0daQA6Bbb3QZ6EsiP8zTcaGOVaBrl+mTKXBhEuEx\neI7dhIO3FBS9No5619S0n2HyPNTAv8WolmlTVJXAySkCYN0lrr5ogOhyKe5aRkIm\nx1XCK1CVm9Sn1kswOhDcIGvnGRBdBf4PwOXCcS3H261FO0wFviOAmHZtAoGBAIb/\ngB6dNisgq/PaYxQCD7fLabzGH5ixW4VbLUBsxYhNDlgtbFnqAywC/xxcXiL8syym\n5H/OUYdG0S3md2Qse6DQjsaNLwvs773xw6N6AymsRGIfJoQe7O08hQYCHZCqUSli\nhpQndVGJG5OuVhmq/ARl1yfMXAHnE3a8cPZjSnk9AoGAfx99wDWf0uDHVlT5uIxR\nS6oSeZAX06zc1jZco+DdDIvk6vT67y6siviVg3V8Q4nroLkzD9X+k/WsPmo+yuS0\nK7grD0YjhO9uywIbhYmfYskITiQnh5m6TO/K9fejFHeR5tYQyUhIIh9uZ+qNpdXB\nieXSbkuGbOw5k85TVDaYNys=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sheets@lucos-serv-dictionnary.iam.gserviceaccount.com",
+  "client_id": "117233004784605996352",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheets%40lucos-serv-dictionnary.iam.gserviceaccount.com"
+}
