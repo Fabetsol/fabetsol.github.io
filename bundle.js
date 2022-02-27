@@ -92102,17 +92102,27 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
     var dico = [];
     for (word in sorted_words) {
         try {
-            dico.push(`<table class="reference"><tr>
-            <td><p class="word">${sorted_words[word][0].split('\n').join('<br>')}</p></td>
-            <td><p class="word">${sorted_words[word][1].split('\n').join('<br>')}</p></td>
-            <td><p class="word">${sorted_words[word][2].split('\n').join('<br>')}</p></td>
-            <td><p class="word">${sorted_words[word][3].split('\n').join('<br>')}</p></td>
-            <td><p class="word">${sorted_words[word][4].split('\n').join('<br>')}</p></td>
-        </tr></table>`);
-        } catch {dico.push(`<span id=${sorted_words[word][0]}><p class="letter">${sorted_words[word][0]}</p></span>`);}
+            dico.push(`
+            <tr class="reference">
+            <td class="left_word"><p class="word">${sorted_words[word][0].split('\n').join('<br>')}</p></td>
+            <td class="center_word"><p class="word">${sorted_words[word][1].split('\n').join('<br>')}</p></td>
+            <td class="center_word"><p class="word">${sorted_words[word][2].split('\n').join('<br>')}</p></td>
+            <td class="center_word"><p class="word">${sorted_words[word][3].split('\n').join('<br>')}</p></td>
+            <td class="right_word"><p class="word">${sorted_words[word][4].split('\n').join('<br>')}</p></td>
+        </tr>`);
+        } catch {dico.push(`</table></div>
+        <span id=${sorted_words[word][0]}><p class="letter">${sorted_words[word][0]}</p></span>
+        <div class="word_list">
+        <table class="reference_list">
+        <tr class="word_header">
+        <td class="left_word"><p class="word">Ranflish</p></td>
+        <td class="center_word"><p class="word">Français</p></td>
+        <td class="center_word"><p class="word">Anglois</p></td>
+        <td class="center_word"><p class="word">Flemisch</p></td>
+        <td class="right_word"><p class="word">[Meaning]</p></td></tr>`);}
     }
 
-var Final = dico.join(`\n`)
+var Final = `<table class="reference_list">` + dico.join(`\n`) + `</table>`;
 document.getElementById('dico').innerHTML = Final;
 
 }());

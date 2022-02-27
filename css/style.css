@@ -5,7 +5,7 @@ body, html{
 	color: #fff;
 	background: no-repeat center center fixed;
 	background-color: black;
-	background-size: 100%;
+	background-size:auto;
 	background-repeat: no-repeat;
 	background-image: url(bg.png);
 	margin: 0;
@@ -23,7 +23,7 @@ body, html{
 .shortcuts {
 	font-size: 25px;
 	font-family: Impact;
-	background-color: white;
+	background-color: rgb(14, 61, 91);
 }
 
 /*Dictionnaire*/
@@ -34,15 +34,41 @@ body, html{
 	user-select: none;
 }
 
-.reference {
-    margin-left: auto;
+.word_list {
+	padding: 10px;
+	margin-left: auto;
     margin-right: auto;
-    background-color: #F4B933;
+	background-color: rgb(19, 99, 148);
 	border-radius: 15px;
-	width: 1000px;
+	width: 75%;
+}
+
+.reference_list {
+	border-spacing: 0px 5px;
+	width: 100%;
+}
+
+.reference {
+    background-color: #F4B933;
+}
+
+.word_header {
+	background-color: chocolate;
 }
 
 .word {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: unset;
+	margin-right: unset;
+}
+
+.center_word {
+	border-collapse:unset;
+}
+
+.left_word {
+	border-radius: 15px 0px 0px 15px;
+}
+
+.right_word {
+	border-radius: 0px 15px 15px 0px;
 }
