@@ -1,0 +1,63 @@
+body, html{
+	font-family: 'Century Gothic', Calibri, serif;
+	font-size: 13px;
+	text-align: center;
+	color: #fff;
+	background: no-repeat center center fixed;
+	background-color: black;
+	background-size:auto;
+	background-repeat: no-repeat;
+	background-image: url(bg.png);
+	margin: 0;
+	padding-top:20px;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+/*Titres et présentation*/
+.title_image {
+	width: 500px;
+	height: auto;
+}
+
+/*La note du dev*/
+.note_du_dev {
+	background-color: antiquewhite;
+	color: goldenrod;
+	padding: 0px 0px 30px 30px;
+	margin-right: 25%;
+	border-radius: 0px 50px 50px 0px;
+}
+
+.table_button {
+	margin-left:auto;
+	margin-right: auto;
+	border-spacing: 10%;
+	width: max-content;
+}
+
+.button_page {
+	background-color: goldenrod;
+	width: max-content;
+	height: 100%;
+
+	font-size: 30px;
+	color: goldenrod;
+
+	border-radius: 10px;
+}
+
+.note_du_dev_head {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.note_du_dev_table {
+	width: 75%;
+	border-spacing: 0px;
+	padding-left: 10%;
+}
+
+.note_du_dev_text {
+	font-size: 40px;
+}

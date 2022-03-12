@@ -1,0 +1,74 @@
+body, html{
+	font-family: 'Century Gothic', Calibri, serif;
+	font-size: 13px;
+	text-align: center;
+	color: #fff;
+	background: no-repeat center center fixed;
+	background-color: black;
+	background-size:auto;
+	background-repeat: no-repeat;
+	background-image: url(bg.png);
+	margin: 0;
+	padding-top:20px;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+/*Titres et présentation*/
+.title_image {
+	width: 500px;
+	height: auto;
+}
+
+.shortcuts {
+	font-size: 25px;
+	font-family: Impact;
+	background-color: rgb(14, 61, 91);
+}
+
+/*Dictionnaire*/
+
+.letter {
+	font-family: Impact;
+	font-size: 150px;
+	user-select: none;
+}
+
+.word_list {
+	padding: 10px;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: rgb(19, 99, 148);
+	border-radius: 15px;
+	width: 75%;
+}
+
+.reference_list {
+	border-spacing: 0px 5px;
+	width: 100%;
+}
+
+.reference {
+    background-color: #F4B933;
+}
+
+.word_header {
+	background-color: chocolate;
+}
+
+.word {
+	margin-left: unset;
+	margin-right: unset;
+}
+
+.center_word {
+	border-collapse:unset;
+}
+
+.left_word {
+	border-radius: 15px 0px 0px 15px;
+}
+
+.right_word {
+	border-radius: 0px 15px 15px 0px;
+}
