@@ -26,6 +26,25 @@ body, html{
 	background-color: rgb(14, 61, 91);
 }
 
+/*Button*/
+.table_button {
+	margin-left:auto;
+	margin-right: auto;
+	border-spacing: 10%;
+	width: max-content;
+}
+
+.button_page {
+	background-color: goldenrod;
+	width: max-content;
+	height: 100%;
+
+	font-size: 30px;
+	color: goldenrod;
+
+	border-radius: 10px;
+}
+
 /*Dictionnaire*/
 
 .letter {

@@ -28,7 +28,7 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
     var dico = [];
     for (word in sorted_words) {
         try {
-            dico.push(`<table class="reference"><tr>
+            dico.push(`<table class="reference_list"><tr>
             <td><p class="word">${sorted_words[word][0].split('\n').join('<br>')}</p></td>
             <td><p class="word">${sorted_words[word][1].split('\n').join('<br>')}</p></td>
             <td><p class="word">${sorted_words[word][2].split('\n').join('<br>')}</p></td>
